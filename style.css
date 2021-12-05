@@ -10,3 +10,8 @@ html,
 body {
   height: 100%;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 10pt;
+}
