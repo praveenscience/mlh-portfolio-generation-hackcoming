@@ -7,3 +7,26 @@ main figure figcaption h1 {font-size: 1.75em; padding: 15px 0 0; color: #666; fo
 main figure figcaption h2 {font-size: 1.25em; padding: 15px 0 0; color: #666; font-weight: 200; letter-spacing: 0.25pt;}
 main figure figcaption strong {font-weight: 300; color: #000;}
 main figure figcaption em {color: #000;}
+footer ul {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+footer ul li a {
+  display: block;
+  padding: 8px;
+  border: 1px solid #ccf;
+  text-decoration: none;
+  color: #99c;
+  border-radius: 4px;
+  transition: all 0.1s linear;
+  font-weight: 300;
+}
+footer ul li a:hover {
+  background-color: #eef;
+  color: #000;
+}
